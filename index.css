@@ -1,0 +1,56 @@
+body{
+	background-color: #f7f7f7;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+
+.header{	
+	margin: 3vh 5vw;
+	border: 5px solid white;
+	padding: 1%;
+	border-radius: 5px;
+}
+.back{
+	margin-top: 10px;
+}
+.logo{
+	margin: 10px;
+	width: 180px;
+	height: auto;
+}
+.arrow_back{
+	margin-right: 15px;
+	opacity: 80%;
+	transition: .5s;
+}
+.arrow_back:hover{
+	transform: scale(1.5);
+	transition: .5s;
+	opacity: 100%;
+}
+
+
+.img-container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin: 3vh 5vw;
+}
+.img{
+	margin-top: 10px;
+	display: flex;
+	flex-direction: column;
+	text-align: center;	
+	transition: .5s;
+	opacity: 80%;	
+}
+.img h6{
+	margin: 5px;
+}
+.img:hover{
+	transform: scale(1.03);
+	transition: .5s;
+	opacity: 100%;
+}

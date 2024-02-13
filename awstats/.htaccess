@@ -1,0 +1,8 @@
+RewriteEngine Off
+
+AuthName "AWStats statistics"
+AuthType Basic
+AuthUserFile /home/virtwww/w_hunter-cc-ua_daf8c6a4/http/awstats/.htpasswd  
+Require valid-user
+
+DirectoryIndex index.cgi

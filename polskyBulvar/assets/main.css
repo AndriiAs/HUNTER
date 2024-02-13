@@ -1,0 +1,260 @@
+body{
+  background-color: #f7f7f7;
+  width: 100vw;
+}
+.header{
+	text-align: center;
+}
+.scroll-wrapper{ 
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: scroll;
+}
+
+.map{
+  border: 5px solid white;
+	position: relative; 
+  display: flex;
+  flex: 0 0 auto;
+	background: url(../pictures/PolskyBulvSmall.jpg);
+	background-size: cover;
+	width: 1615px;
+	height: 540px;
+	margin: 20px;    
+}
+
+.bt-container{
+	margin: 20px ;
+	text-align: center;
+}
+
+#ls{
+	width: 200%;
+}
+
+.first{
+  position: absolute;  
+  width: 15px;
+  height: 15px;
+  border: 3px solid #73AD21;
+  border-radius: 50%;
+  transition: .5s;
+}
+.first:hover{
+	transform: scale(1.5);
+	transition: .5s;
+}
+.red{
+	background: red;
+}
+.valve{
+  position: absolute;  
+  width: 18px;
+  height: 18px;
+  border: 3px solid white;
+  background: black;
+  border-radius: 50%;
+  transition: .5s;
+  display: none;  
+  color: white;
+}
+.V1{
+	top: 130px;
+    left: 120px;
+}
+.V2{
+	top: 150px;
+    left: 250px;
+}
+.V3{
+	top: 80px;
+    left: 450px;
+}
+
+
+/*Left side*/
+.L1{
+  top: 110px;
+  right: 25px;
+}
+.L2{
+  top: 125px;
+  right: 125px;
+}
+.L3{
+  top: 140px;
+  right: 300px;
+}
+.L4{
+  top: 152px;
+  right: 480px;
+}
+.L5{
+  top: 160px;
+  right: 565px;
+}
+.L6{
+  top: 165px;
+  right: 635px;
+}
+.L7{
+  top: 168px;
+  right: 695px;
+}
+.L8{
+  top: 177px;
+  right: 835px;
+}
+.L9{
+  top: 182px;
+  right: 900px;
+}
+.L10{
+  top: 200px;
+  right: 940px;
+}
+.L11{
+  top: 200px;
+  right: 1000px;
+}
+.L12{
+  top: 220px;
+  right: 1080px;
+}
+.L13{
+  top: 220px;
+  right: 1110px;
+}
+.L14{
+  top: 210px;
+  right: 1180px;
+}
+.L15{
+  top: 230px;
+  right: 1240px;
+}
+.L16{
+  top: 210px;
+  right: 1280px;
+}
+.L17{
+  top: 220px;
+  right: 1370px;
+}
+
+
+
+
+/*Right side*/
+.R1{
+  top: 85px;
+  right: 30px;
+}
+.R2{
+  top: 88px;
+  right: 80px;
+}
+.R3{
+  top: 91px;
+  right: 120px;
+}
+.R4{
+  top: 95px;
+  right: 200px;
+}
+.R5{
+  top: 70px;
+  right: 250px;
+}
+.R6{
+  top: 105px;
+  right: 330px;
+}
+.R7{
+  top: 110px;
+  right: 440px;
+}
+.R8{
+  top: 118px;
+  right: 500px;
+}
+.R11{
+  top: 125px;
+  right: 600px;
+}
+.R12{
+  top: 120px;
+  right: 670px;
+}
+.R13{
+  top: 135px;
+  right: 750px;
+}
+.R14{
+  top: 80px;
+  right: 790px;
+}
+.R15{
+  top: 90px;
+  right: 845px;
+}
+.R16{
+  top: 135px;
+  right: 890px;
+}
+.R17{
+  top: 145px;
+  right: 1050px;
+}
+
+
+
+
+
+
+.R21{
+  top: 77px;
+  right: 1100px;
+}
+.R22{
+  top: 115px;
+  right: 1160px;
+}
+.R23{
+  top: 120px;
+  right: 1280px;
+}
+.R231{
+  top: 160px;
+  right: 1280px;
+}
+
+.R24{
+  top: 160px;
+  right: 1380px;
+}
+.R25{
+  top: 168px;
+  right: 1480px;
+}
+.R26{
+  top: 155px;
+  right: 1500px;
+}
+
+
+
+img {
+	width: 1100px;  
+}
+
+
+@media only screen and (max-width: 600px) {
+    img {
+		width: 85vw;
+/*		height: 65vh;*/
+    height: auto;
+/*		width: 1615px;*/
+	}
+	
+}
